@@ -5,5 +5,7 @@ src/dlg/dlg.c
 subprojects/*
 !subprojects/*.wrap
 /tests/data/*
-freetype/freetype.vcxproj
-freetype/freetype.vcxproj.filters
+*.vcxproj.filters
+*.vcxproj
+bin
+bin-int

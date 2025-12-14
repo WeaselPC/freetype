@@ -563,7 +563,7 @@ FT_BEGIN_HEADER
    *
    *   More details on the hooks can be found in file `otsvg.h`.
    */
-#define FT_CONFIG_OPTION_SVG
+/* #define FT_CONFIG_OPTION_SVG */
 
 
   /**************************************************************************
