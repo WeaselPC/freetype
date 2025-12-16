@@ -180,7 +180,7 @@ FT_BEGIN_HEADER
    *
    *   Define this macro if you want to enable this 'feature'.
    */
-#define FT_CONFIG_OPTION_USE_LZW
+//#define FT_CONFIG_OPTION_USE_LZW
 
 
   /**************************************************************************
@@ -195,7 +195,7 @@ FT_BEGIN_HEADER
    *   Define this macro if you want to enable this 'feature'.  See also the
    *   macro `FT_CONFIG_OPTION_SYSTEM_ZLIB` below.
    */
-#define FT_CONFIG_OPTION_USE_ZLIB
+//#define FT_CONFIG_OPTION_USE_ZLIB
 
 
   /**************************************************************************
@@ -386,7 +386,7 @@ FT_BEGIN_HEADER
    *
    *   Note that the 'FOND' resource isn't checked.
    */
-#define FT_CONFIG_OPTION_MAC_FONTS
+/* #define FT_CONFIG_OPTION_MAC_FONTS */
 
 
   /**************************************************************************
@@ -418,7 +418,7 @@ FT_BEGIN_HEADER
    * incrementally as the document is parsed, such as the Ghostscript
    * interpreter for the PostScript language.
    */
-#define FT_CONFIG_OPTION_INCREMENTAL
+/* #define FT_CONFIG_OPTION_INCREMENTAL */
 
 
   /**************************************************************************
@@ -603,7 +603,7 @@ FT_BEGIN_HEADER
    * outlines (from the 'COLR'/'CPAL' tables) in all formats using the 'sfnt'
    * module (namely TrueType~& OpenType).
    */
-#define TT_CONFIG_OPTION_COLOR_LAYERS
+/* #define TT_CONFIG_OPTION_COLOR_LAYERS */
 
 
   /**************************************************************************
@@ -642,15 +642,15 @@ FT_BEGIN_HEADER
    *   Here you can fine-tune which TrueType CMap table format shall be
    *   supported.
    */
-#define TT_CONFIG_CMAP_FORMAT_0
-#define TT_CONFIG_CMAP_FORMAT_2
+//#define TT_CONFIG_CMAP_FORMAT_0
+//#define TT_CONFIG_CMAP_FORMAT_2
 #define TT_CONFIG_CMAP_FORMAT_4
-#define TT_CONFIG_CMAP_FORMAT_6
-#define TT_CONFIG_CMAP_FORMAT_8
-#define TT_CONFIG_CMAP_FORMAT_10
+//#define TT_CONFIG_CMAP_FORMAT_6
+//#define TT_CONFIG_CMAP_FORMAT_8
+//#define TT_CONFIG_CMAP_FORMAT_10
 #define TT_CONFIG_CMAP_FORMAT_12
-#define TT_CONFIG_CMAP_FORMAT_13
-#define TT_CONFIG_CMAP_FORMAT_14
+//#define TT_CONFIG_CMAP_FORMAT_13
+//#define TT_CONFIG_CMAP_FORMAT_14
 
 
   /*************************************************************************/
