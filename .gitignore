@@ -9,3 +9,4 @@ subprojects/*
 *.vcxproj
 bin
 bin-int
+*.vcxproj.user
